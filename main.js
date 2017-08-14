@@ -22,8 +22,7 @@ $( document ).ready(function() {
   $(".content").attr("style","opacity:1");
   $(".content").hide();
 
-  $(".loading").hide();
-  $(".content").fadeIn();
+
   picker = new CP(document.querySelector('#color-picker'),false);
   picker.on("change", function(color) {
       color =CP.HEX2RGB(color);
@@ -161,6 +160,8 @@ function createWebsocketConnection(){
   ws = new WebSocket('ws://' + ip +':82');
   ws.onopen = function()
   {
+    $(".loading").hide();
+    $(".content").fadeIn();
      // Web Socket is connected, send data using send()
      ws.send("{'Device':{'name':'mobile','macAddress':'mobile','owner':'mobile'}}");
   };

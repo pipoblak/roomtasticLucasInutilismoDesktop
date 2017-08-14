@@ -5,13 +5,24 @@
   "main": "index.js",
   "productName": "RoomControl Inutilismo",
   "dependencies": {
-    "electron": "^1.7.5",
+
     "jquery": "^3.2.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "electron": "^1.7.5",
+    "electron-builder": "^19.22.1"
+  },
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "author": "Felipe Ramos",
-  "license": "ISC"
+  "license": "ISC",
+  "build": {
+    "appId": "roomstastic.roomcontrol",
+    "mac": {
+      "category": "Controller"
+    }
+  }
 }
