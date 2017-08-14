@@ -1,0 +1,17 @@
+{
+  "name": "roomcontrol",
+  "version": "1.0.0",
+  "description": "Roomtastic Control Lucas Inutilismo",
+  "main": "index.js",
+  "productName": "RoomControl Inutilismo",
+  "dependencies": {
+    "electron": "^1.7.5",
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Felipe Ramos",
+  "license": "ISC"
+}
