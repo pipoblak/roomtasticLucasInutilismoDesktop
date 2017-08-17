@@ -35,6 +35,7 @@ body,html{
   height: 50%;
 }
 .menu-app-bar{
+  display:none;
   position: absolute;
   color: #d4d4d4;
   right: 3%;
