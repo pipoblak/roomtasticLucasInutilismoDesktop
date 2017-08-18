@@ -45,6 +45,6 @@
     <key>NSHumanReadableCopyright</key>
     <string>Copyright © 2017 Felipe Ramos</string>
     <key>AsarIntegrity</key>
-    <string>{"checksums":{"app.asar":"+ZRz1zfHnUH1Zx6YFLC9iD2C+8ZRWmtuTSmQBFraBgLVu4TbQ3a+2HsHECjMHP+rfwjPSH1JQuq3ODTz34ssWg==","electron.asar":"BRqS8W73IRj4UmuZ/nvtXHDuMSEHH0t5tdWnx4ekG1VQ1Uke4WYC+OVev4odtRGyLhop36qhifBvSL2yfQ5qOQ=="}}</string>
+    <string>{"checksums":{"app.asar":"3ou/mlPLon4ibSopHdKf9t5ong2+5jEAmiNa4D4YuR8K2sKMOEZ3lbvT/S3VkDocdFxelgz9vD5LrP+rDgFy2w==","electron.asar":"BRqS8W73IRj4UmuZ/nvtXHDuMSEHH0t5tdWnx4ekG1VQ1Uke4WYC+OVev4odtRGyLhop36qhifBvSL2yfQ5qOQ=="}}</string>
   </dict>
 </plist>
